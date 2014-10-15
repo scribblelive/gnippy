@@ -5,12 +5,9 @@ A Node.js client for consuming Gnip. Connect to the Gnip Powertrack Streaming AP
 **Gnip account** with Twitter PowerTrack available and enabled.
 
 ## Gnippy.Powertrack.Stream
-========================
-
 The stream is an EventEmitter that allows you to connect to a PowerTrack stream and start receiving data.
 
 ### API Methods
-========================
 
 #### stream.start()
 Connect to the stream and start receiving data from Gnip. You should have registered at least one event listener for any
@@ -24,8 +21,6 @@ of the following events from the stream:
 Terminates the connection to the stream.
 
 ### Events
-========================
-
 | Event Name | Description |
 | ---------- | ----------- |
 | data       | Emitted for each content item received. |
