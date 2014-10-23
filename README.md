@@ -42,7 +42,8 @@ var Gnippy  = require('gnippy');
 var powertrack_options  = {
   account_name: "<your Gnip account name>",
   user:         "<your Gnip user name>",
-  password:     "<your Gnip password>"
+  password:     "<your Gnip password>",
+  stream_name:  "<your Gnip Powertrack Stream name, ex. 'prod'>"
 };
 
 var stream  = new Gnippy.Powertrack.Stream(powertrack_options);
