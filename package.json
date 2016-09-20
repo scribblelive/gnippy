@@ -1,41 +1,39 @@
 {
-  "name": "gnippy",
-  "description": "Node.js client for Gnip/Twitter.",
-  "keywords": [
-    "gnip",
-    "twitter"
-  ],
-  "version": "0.0.10",
-  "licenses": [
-    {
-      "type": "MIT",
-      "url": "https://github.com/michaeldelorenzo/gnippy/raw/master/LICENSE"
+    "name": "gnippy",
+    "description": "Node.js client for Gnip/Twitter.",
+    "keywords": [
+        "gnip",
+        "twitter"
+    ],
+    "version": "0.0.10",
+    "licenses": [{
+        "type": "MIT",
+        "url": "https://github.com/michaeldelorenzo/gnippy/raw/master/LICENSE"
+    }],
+    "author": "Michael De Lorenzo <michael@delorenzodesign.com>",
+    "repository": {
+        "type": "git",
+        "url": "http://github.com/michaeldelorenzo/gnippy.git"
+    },
+    "bugs": {
+        "url": "http://github.com/michaeldelorenzo/gnippy/issues"
+    },
+    "devDependencies": {
+        "factory-lady": "*",
+        "mocha": "*",
+        "nock": "*",
+        "should": "*"
+    },
+    "dependencies": {
+        "JSONStream": "^1.1.4",
+        "emit-stream": "0.1.2",
+        "event-stream": "3.3.4",
+        "moment": "2.15.0",
+        "request": "2.75.0",
+        "underscore": "1.6.0"
+    },
+    "main": "./index",
+    "engines": {
+        "node": "node >= 0.10.0"
     }
-  ],
-  "author": "Michael De Lorenzo <michael@delorenzodesign.com>",
-  "repository": {
-    "type": "git",
-    "url": "http://github.com/michaeldelorenzo/gnippy.git"
-  },
-  "bugs": {
-    "url": "http://github.com/michaeldelorenzo/gnippy/issues"
-  },
-  "devDependencies": {
-    "factory-lady": "*",
-    "mocha": "*",
-    "nock": "*",
-    "should": "*"
-  },
-  "dependencies": {
-    "JSONStream": "^1.1.4",
-    "emit-stream": "0.1.2",
-    "event-stream": "^3.3.4",
-    "moment": "^2.15.0",
-    "request": "^2.75.0",
-    "underscore": "^1.8.3"
-  },
-  "main": "./index",
-  "engines": {
-    "node": "node >= 0.10.0"
-  }
 }
